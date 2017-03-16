@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Fourth level</title>
+    <link rel="stylesheet" type="text/css" href="css/about.css" media="none" onload="if(media!='all')media='all'" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="button">Hint</div>
+      <div class="think">
+        <img src="images/think.png" alt="think">
+      </div>
+    </div>
+    <div class="toast">You just Lost 5 secs !!!</div>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script>
+      $('.button').click(function() {
+        $('.toast').fadeIn(400).delay(1500).fadeOut(300);
+      })
+    </script>
+  </body>
+</html>

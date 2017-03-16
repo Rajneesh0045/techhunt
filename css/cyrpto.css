@@ -1,0 +1,38 @@
+body{
+  text-align: center;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  position: relative;
+  padding: 0;
+  color: #fff;
+  overflow-x: hidden;
+  font-family: 'Freckle Face', cursive;
+}
+
+.container{
+ text-align: center;
+  height: 600px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ghost{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.ghost img{
+  width: 100px;
+  filter: blur(1px);
+}
+
+.container p{
+  width: 50%;
+  transform: translate(50%,0);
+}

@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Freckle Face', cursive;
+  position: relative;
+}
+
+.container{
+  position: absolute;
+  text-align: center;
+  height: 500px;
+  width: 500px;
+  top:30px;
+  left: 50%;
+  transform: translate(-50%,0);
+  border-radius: 4px;
+  box-shadow: 0 0 10px 10px rgba(0,0,0,0.2);
+}
+
+.button{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid #555;
+  color: #444;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.think{
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+}
+.think img{
+  width: 300px;
+}
+
+.toast{
+  position: fixed;
+  bottom: 30px;
+  background: #666;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  left: 50%;
+  transform: translate(-50%,0);
+  display: none;
+}

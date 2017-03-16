@@ -1,0 +1,110 @@
+body{
+  text-align: center;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background:url(../images/hauntroom1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  padding: 0;
+  color: #000;
+  overflow-x: hidden;
+  font-family: 'Freckle Face', cursive;
+}
+
+.container{
+ text-align: center;
+  height: 600px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.calender{
+  position: absolute;
+  right: 300px;
+  top: 150px;
+  width: 100px;
+}
+
+.calender img{
+  width: 70px;
+  filter: blur(1px);
+}
+
+.calender .scripts{
+  padding: 10px;
+  background: #fda;
+  display: none;
+  color: #444;
+}
+
+.fakeplace{
+  width: 150px;
+  height: 150px;
+}
+#fake1{
+  position: absolute;
+}
+#fake2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+#fake3{
+  position: absolute;
+  top: 70%;
+  right: 30%;
+}
+#fake4{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+#fake5{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#faketext{
+  position: fixed;
+  bottom: 20px;
+  left:50%;
+  transform: translate(-50%,0);
+  width: 200px;
+  padding: 10px 0;
+  background: #fd8;
+  display: none;
+}
+
+.cokroch{
+  position: fixed;
+  top: 50px;
+  left: 70px;
+  z-index: 99;
+}
+
+.cokroch img{
+  width: 50px;
+}
+.scripts{
+  width: 150px;
+}
+.info{
+  position: fixed;
+  bottom: 50px;
+  width: 50%;
+  transform: translate(50%,0);
+  z-index: 99;
+}
+.info p{
+  font-size: 20px;
+  color: #fff;
+  background-color: rgba(0,0,0,0.7);
+  padding: 10px;
+}

@@ -1,0 +1,80 @@
+body{
+  text-align: center;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  position: relative;
+  padding: 0;
+  color: #fff;
+  overflow-x: hidden;
+  font-family: 'Freckle Face', cursive;
+}
+.blood1{
+  position: absolute;
+}
+.blood2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0,-50%);
+}
+.bulb{
+  position: fixed;
+  top: -15px;
+  right: 0;
+}
+.container{
+ text-align: center;
+  height: 700px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.story{
+  margin: auto;
+  width: 50%;
+  font-size: 20px;
+  z-index: 2;
+}
+.selection{
+  color: red;
+  margin: 50px auto;
+  font-weight:bold;
+  font-size: 30px;
+}
+.characters{
+  margin: auto;
+  margin-top: 5%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.lelouch{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  justify-content: space-around;
+  cursor: pointer;
+  align-items: center;
+  transition-duration:150ms;
+}
+
+.lelouch:hover{
+  background: rgba(255,255,255,0.05);
+}
+
+.lelouch img{
+  width: 30%;
+}
+
+.lelouch des{
+  text-align: center;
+  width: 80%;
+  font-family: 'Special Elite', cursive;
+}

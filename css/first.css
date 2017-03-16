@@ -1,0 +1,48 @@
+body{
+  text-align: center;
+  margin: 0;
+  height: 100vmin;
+  width: 100%;
+  background: url(../images/library.jpg);
+  background-size: cover;
+  background-position: center bottom 0px;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 0;
+  color: #fff;
+  overflow-x: hidden;
+  font-family: 'Freckle Face', cursive;
+}
+
+.container{
+ text-align: center;
+  height: 600px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.book{
+  position: fixed;
+  bottom: 60px;
+  left: 10%;
+}
+.book img{
+  width: 60px;
+}
+.book1{
+  position: fixed;
+  bottom: 60px;
+  left: 80%;
+}
+.book2{
+  position: fixed;
+  bottom: 60px;
+  left: 30%;
+}
+.book1 img,
+.book2 img{
+  width: 60px;
+  filter: blur(1px);
+}
